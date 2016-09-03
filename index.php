@@ -12,11 +12,20 @@ and open the template in the editor.
     <body>        
         <?php
         require_once("require.php");
-        $info = new Coordenador();
-        $info->setId(1);
-        $info->setNome("Lucas");
-        print $info->getId();
-        print $info->getNome();
+//        $info = new Coordenador();
+//        $info->setId(1);
+//        $info->setNome("Lucas");
+//        print $info->getId();
+//        print $info->getNome();
+//        
+//        $cinfo = new Curso();
+//        $cinfo->setId(1);
+//        $cinfo->setNome("ADS");
+//        $cinfo->setCoordenador($info);
+        
+        $connection = new Connection();
+        $connection->testar();
+        
         
         ?>
     </body>
