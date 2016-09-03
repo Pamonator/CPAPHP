@@ -15,6 +15,8 @@ and open the template in the editor.
         $info = new Coordenador();
         $info->setId(1);
         $info->setNome("Lucas");
+        print $info->getId();
+        print $info->getNome();
         
         ?>
     </body>
